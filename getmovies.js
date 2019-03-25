@@ -19,6 +19,5 @@ document.getElementById('result').innerHTML += "<strong>Movies shot at the Golde
       out = "Movie Title: " + arr[i][8] + " -- Release Year: " + arr[i][9] + " -- Production Company: " + arr[i][12];
       document.getElementById('result').innerHTML += out + "<br>";
     }
-    console.log("finished checking");
   }
 }
